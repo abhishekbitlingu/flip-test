@@ -21,6 +21,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import {
   FlatList,
   ListRenderItem,
+  Platform,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -40,7 +41,17 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: colors.uiOrange,
   },
-  container: {flex: 1, marginBottom: 36},
+  container: {
+    flex: 1,
+    ...Platform.select({
+      ios: {
+        marginBottom: 36,
+      },
+      default: {
+        marginBottom: 0,
+      },
+    }),
+  },
   searchBoxContainer: {
     margin: 5,
     height: 48,
