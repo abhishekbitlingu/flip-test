@@ -1,0 +1,44 @@
+{
+    "screenNames": {
+        "transactionList": "TransactionList",
+        "transactionDetails": "TransactionDetails"
+    },
+    "screenTitles": {
+        "transactionList": "Transaction List",
+        "transactionDetails": "Transaction Details"
+    },
+    "colors": {
+        "uiGray": "rgb(171,171,171)",
+        "uiOrange": "rgb(238,110,65)",
+        "uiGreen": "rgb(90,179,136)",
+        "uiWhite": "white",
+        "uiBlack": "black"
+    },
+    "strings": {
+        "searchBarPlaceHolder": "Search name, bank or nominal",
+        "noResultsFound": "No results Found",
+        "noSortSelected": "SORT",
+        "sortByNameAscending": "Name A-Z",
+        "sortByNameDescending": "Name Z-A",
+        "sortByDateNewest": "Date Newest",
+        "sortByDateOldest": "Date Oldest",
+        "transactionId": "TRANSACTION ID: #",
+        "transactionDetails": "TRANSACTION DETAILS",
+        "cover": "Cover",
+        "nominal": "NOMINAL",
+        "rupiyah": "Rp",
+        "transferRemarks": "TRANSFER REMARKS",
+        "uniqueCode": "UNIQUE CODE",
+        "dateOfTransfer": "DATE OF TRANSFER"
+    },
+    "urls": {
+        "fetchTransactions": "https://nextar.flip.id/frontend-test"
+    },
+    "overlayRadioPopupMenuKeys" : {
+        "noSort": "noSortSelected",
+        "sortByNameAscending": "sortByNameAscending",
+        "sortByNameDescending": "sortByNameDescending",
+        "sortByDateNewest": "sortByDateNewest",
+        "sortByDateOldest": "sortByDateOldest"
+    }
+}
