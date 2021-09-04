@@ -25,13 +25,13 @@ export const useFetchTransactions = (): [
   useEffect(() => {
     setIsLoading(true);
     fetch(urls.fetchTransactions)
-      .then(res => res.json())
+      .then((res) => res.json())
       .then((res: TransactionsResponse) => {
         setIsLoading(false);
         setIsError(false);
         prepareTransactionsArray(res);
       })
-      .catch(e => {
+      .catch((e) => {
         console.warn(e);
         setIsError(true);
         setIsLoading(false);
